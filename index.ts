@@ -9,4 +9,4 @@ const adjacencyList = {
 }
 
 const graph = new Graph({ adjacencyList });
-console.log(graph.breadthFirstSearch(0));
+console.log(graph.depthFirstSearch(0));
